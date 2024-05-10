@@ -30,7 +30,7 @@ or you can do the configuration bellow in bottom about dependencies you need to 
 # (4) Use your Virtual Environment as interpreter: 
 Open your project in Visual Studio Code and open any python file for example FlaskApp.py then in the 
 right bottom corner you can see python and -> the version click the version to pop up the list of available interpreters in the list you can see a "Enter interpreter PATH" click it and find or navigate to the PATH of .venv you created and continue to "Scripts\python" like on me 
--> "C:\Users\ruzhe\Vue-Flask\.venv\Scripts\python" 
+-> "C:\Users\ruzhe\Vue-Flask\ .venv\Scripts\python" 
 this my path and this only a example
 
 # (5) Configure the Database: 
@@ -42,6 +42,7 @@ Or you can direct run it by "right clicking" the FlaskApp.py and run code but ma
 
 
 # install this while you'r virtual environment was active
+## you dont need to do this if you do the (3) Install Dependencies
 
 ### Flask: Flask is a lightweight web framework for Python. It's designed to be simple and easy to use, allowing developers to quickly build web applications.
 ```
