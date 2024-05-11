@@ -11,4 +11,4 @@ npm install
 ### Refer to the README.md in the flask-backend directory for instructions on how to set up the virtual environment.
 
 # Including a Database
-### To incorporate a database, you'll need to install XAMPP to utilize MariaDB. I won't include instructions on configuring XAMPP or using their MariaDB here. Instead, you can refer to XAMPP's documentation for guidance.
+### To incorporate a database, you'll need to install XAMPP to utilize MariaDB. I won't include instructions on configuring XAMPP or using their MariaDB here. Instead, you can refer to XAMPP's documentation for guidance
