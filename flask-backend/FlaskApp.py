@@ -41,7 +41,7 @@ def mysql():
     # If the connector was successfully connected, proceed to add the user to the database
     connector.add(User(username=username))
     # Commit changes to the database
-    add_user = connector.commit()
+    connector.commit()
     # Close the database connection
     connector.close()
     # after this you can navigate to you database/table and see if the username row is there
