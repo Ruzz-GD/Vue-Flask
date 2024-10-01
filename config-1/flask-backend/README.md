@@ -3,13 +3,15 @@
 # If you already configure python in your system you can follow this step
 
 # (1) Create a Virtual Environment: 
-Navigate to your project's main directory(Vue-Flask) then run this command 
+Navigate to your project's main directory(Vue-Flask) if you clone all
+If Individual Directory go to (e.g config-1) then run this command
 ```
 python -m venv .venv
 ```
 
 # (2) Activate the Virtual Environment: 
-By running this command in main directory(config-1)
+By running this command in main directory(Vue-Flask) If You Clone All Directory
+By running this command in main directory(config-1) If Individual Directory
 ``` 
 .venv\Scripts\activate
 ```
@@ -30,7 +32,8 @@ or you can do the configuration bellow in bottom about dependencies you need to 
 # (4) Use your Virtual Environment as interpreter: 
 Open your project in Visual Studio Code and open any python file for example FlaskApp.py then in the 
 right bottom corner you can see python and -> the version click the version to pop up the list of available interpreters in the list you can see a interpreter "Python version ('.venv':venv) .\.venv\Scripts\python.exe" use or click it if you can't see it try this second methods click the "Enter interpreter PATH" click it and find or navigate to the PATH of .venv you created and continue to "Scripts\python" like on me 
--> "C:\Users\ruzhe\Vue-Flask\config-1 .venv\Scripts\python" 
+-> "C:\Users\ruzhe\Vue-Flask .venv\Scripts\python" if all method
+-> "C:\Users\ruzhe\Vue-Flask\config-1 .venv\Scripts\python" if individual method
 this my path and this only a example
 
 # (6) Run the Flask Application: 
