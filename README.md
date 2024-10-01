@@ -18,10 +18,11 @@ git clone <repo-url>
 
 Follow these steps to initialize a new Git repository with sparse checkout:
 
-1. **Create a New Directory:**
-   ```bash
-   mkdir <my-new-project>
-   cd <my-new-project>
+### 1. Create a New Directory:
+```
+mkdir <my-new-project>
+cd <my-new-project>
+```
 
 ### 2. Initialize the Repository:
 ```
@@ -29,7 +30,7 @@ git init
 ```
 ### 3. Add the Remote Repository:
 ```
-git remote add origin <your-repo-url>
+git remote add origin <repo-url>
 ```
 ### 4. Enable Sparse Checkout:
 ```
