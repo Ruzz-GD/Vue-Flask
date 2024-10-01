@@ -1,14 +1,48 @@
-# Vue-Flask Simple Fullstack Web Development Configuration
+# set-up repository
 
-### To make Vue.js work, you'll need to reinstall the node_modules
-### run the following command in vue-frontend directory
+This project demonstrates how to set up a new Git repository with sparse checkout.
+
+## Getting Started
+
+### Prerequisites
+
+- Ensure you have Git installed on your machine.
+- You need access to a remote Git repository (e.g., on GitHub).
+
+### Initial Setup For All Directory
 ```
-npm install
+git clone <repo-url>
 ```
-### Please refer to the README.md in the vue-frontend directory for information on additional dependencies that need to be installed.
 
-### To enable Flask.py functionality, create a virtual environment.
-### Refer to the README.md in the flask-backend directory for instructions on how to set up the virtual environment.
+### Initial Setup For Individual Directory
 
-# Including a Database
-### To incorporate a database, you'll need to install XAMPP to utilize MariaDB. I won't include instructions on configuring XAMPP or using their MariaDB here. Instead, you can refer to XAMPP's documentation for guidance
+Follow these steps to initialize a new Git repository with sparse checkout:
+
+1. **Create a New Directory:**
+   ```bash
+   mkdir <my-new-project>
+   cd <my-new-project>
+
+### 2. Initialize the Repository:
+```
+git init
+```
+### 3. Add the Remote Repository:
+```
+git remote add origin <your-repo-url>
+```
+### 4. Enable Sparse Checkout:
+```
+git config core.sparseCheckout true
+```
+### 5. Specify the Directory to Pull:
+#### directory name in Vue-Flask repository
+```
+echo "config-1/*" >> .git/info/sparse-checkout
+```
+### 6. Pull the Desired Branch:
+```
+git pull origin main
+```
+
+
