@@ -34,12 +34,12 @@ git remote add origin <repo-url>
 ```
 ### 4. Enable Sparse Checkout:
 ```
-git config core.sparseCheckout true
+git sparse-checkout init --cone
 ```
 ### 5. Specify the Directory to Pull:
 #### directory name in Vue-Flask repository
 ```
-echo "config-1/*" >> .git/info/sparse-checkout
+git sparse-checkout set <e.g config-1>
 ```
 ### 6. Pull the Desired Branch:
 ```
