@@ -1,49 +1,23 @@
-# set-up repository
+# Vue-Flask Simple Fullstack Web Development Configuration
 
-This project demonstrates how to set up a new Git repository with sparse checkout.
+### To make Vue.js work, you'll need to reinstall the node_modules
+### run the following command in vue-frontend directory
+```
+npm install
+```
+### Please refer to the README.md in the vue-frontend directory for information on additional dependencies that need to be installed.
+
+### To enable Flask.py functionality, create a virtual environment.
+### Refer to the README.md in the flask-backend directory for instructions on how to set up the virtual environment.
 
 ## Getting Started
-
-### Prerequisites
-
 - Ensure you have Git installed on your machine.
 - You need access to a remote Git repository (e.g., on GitHub).
 
-### Initial Setup For All Directory
+### Initial Setup 
 ```
-git clone <repo-url>
-```
-
-### Initial Setup For Individual Directory
-
-Follow these steps to initialize a new Git repository with sparse checkout:
-
-### 1. Create a New Directory:
-```
-mkdir <my-new-project>
-cd <my-new-project>
+git clone https://github.com/Ruzz-GD/Vue-Flask.git
 ```
 
-### 2. Initialize the Repository:
-```
-git init
-```
-### 3. Add the Remote Repository:
-```
-git remote add origin <repo-url>
-```
-### 4. Enable Sparse Checkout:
-```
-git sparse-checkout init --cone
-```
-### 5. Specify the Directory to Pull:
-#### directory name in Vue-Flask repository
-```
-git sparse-checkout set <e.g config-1>
-```
-### 6. Pull the Desired Branch:
-```
-git pull origin main
-```
 
 
